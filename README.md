@@ -1,10 +1,14 @@
-# Vue 3 + Typescript + Vite
+# Vue 3 + Typescript + Vite + Tailwind + Eslint + Prettier + Jest + Cypress
 
 This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
+The template includes [Tailwind CSS](https://tailwindcss.com/) preconfigured.
+
+The template also includes [Eslint](https://eslint.org/) linting, [Prettier](https://prettier.io/) formatting, unit testing with [Jest](https://jestjs.io) and E2E [Cypress](https://www.cypress.io/) testing.
+
 ## Recommended IDE Setup
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+-   [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) + [Tailwind](https://github.com/tailwindlabs/tailwindcss-intellisense)
 
 ## Type Support For `.vue` Imports in TS
 

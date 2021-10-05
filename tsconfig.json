@@ -11,7 +11,13 @@
         "esModuleInterop": true,
         "lib": ["esnext", "dom"],
         "noUnusedLocals": true,
-        "types": ["vite/client", "@types/jest", "cypress"],
+        "types": ["vite/client", "@types/jest", "cypress"]
     },
-    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "e2e/**/*.ts"]
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.d.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue",
+        "e2e/**/*.ts"
+    ]
 }
