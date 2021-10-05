@@ -5,4 +5,5 @@ module.exports = {
         '^.+\\.ts$': 'ts-jest',
         '^.+\\.vue$': '@vue/vue3-jest',
     },
+    testPathIgnorePatterns: ['<rootDir>/e2e/'],
 }
